@@ -1,0 +1,37 @@
+{
+  "name": "car-rental-backend",
+  "version": "0.0.1",
+  "description": "Monolith Backend of Car Rental App",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/app.js",
+    "build": "tsc",
+    "dev": "ts-node-dev --respawn --transpile-only --watch src src/app.ts",
+    "prod": "npm run build && npm run start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andryniaina/car-rental-backend.git"
+  },
+  "keywords": [
+    "Car",
+    "Rental",
+    "App"
+  ],
+  "author": "Andriniaina RAHERISON",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andryniaina/car-rental-backend/issues"
+  },
+  "homepage": "https://github.com/andryniaina/car-rental-backend#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.10.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.7.2"
+  }
+}
